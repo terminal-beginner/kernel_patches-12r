@@ -2,7 +2,7 @@
 <manifest>
   <remote fetch="https://git.codelinaro.org/clo/la" name="clo-la"/>
   <remote fetch="https://github.com/OnePlusOSS" name="origin"/>
-  <remote fetch="https://github.com/terminal-beginner" name="termianl-beginner"/>
+  <remote fetch="https://github.com/terminal-beginner" name="terminal-beginner"/>
   <default remote="clo-la" revision="dummy_revision" sync-c="true" sync-tags="false"/>
   <project remote="origin" name="android_kernel_common_oneplus_sm8550" path="kernel_platform/common" revision="oneplus/sm8550_b_16.0.0_oneplus_12r">
     <linkfile dest=".source_date_epoch_dir" src="."/>
